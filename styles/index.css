@@ -3,13 +3,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 h1 {
   /* font-weight: 700; */
   line-height: 1.05;
   font-family: 'Nimbus Roman', sans-serif;
+}
+
+h3 {
+  font-family: 'Nimbus Roman', sans-serif;
+  font-size: 4rem;
+}
+
+h5 {
+  font-family: 'Nimbus Roman', sans-serif;
+  font-size: 2rem;
 }
 
 body {
@@ -43,7 +52,7 @@ nav {
 .search-container {
   border: 2px groove #272727;
   border-color: black;
-  width: 420px;
+  width: 100%;
   padding: 8px;
   height: 100%;
   display: flex;
@@ -99,7 +108,7 @@ nav {
   background-color: black;
   color: white;
   height: 97vh;
-  background-image: url("CoverStory_robots.jpeg");
+  background-image: url("../resources/CoverStory_robots.jpeg");
   background-position: 0% 58%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -147,19 +156,44 @@ nav {
 
 #cover-noticias {
   display: flex;
+  justify-content: center;
   height: 95vh;
+  /* padding: 30px; */
   background-color: white;
 }
-
 
 .column-noticias {
   height: 100%;
   width: 40%;
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  /* padding */
   font-size: 4.5rem;
-  justify-content: center
+  justify-content: center;
+  
+}
+
+#column-left-noticias {
+  padding-left: 20px;
+}
+
+.text-noticia {
+  font-size: 1.35rem;
+  font-family: 'Nimbus Roman', sans-serif;
+  margin-bottom: 11rem;
+}
+
+.h2-noticia {
+  line-height: 1.05;
+  font-family: 'Nimbus Roman', sans-serif;
+  font-size: 6rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.hand-image {
+  height: 75%;
+  width: 105%;
 }
 
 
@@ -171,33 +205,111 @@ nav {
 
 
 
+/* section futuro */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#cover-3 {
-  height: 90vh;
-  background-color: #333333;
+#cover-futuro {
+  height: 89vh;
+  /* width: 100%; */
+  /* background-color: #333333; */
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 11.75rem;
+  background: linear-gradient(
+    to right,
+    #333333 0%,
+    #333333 50%,
+    #82c0cc 50%,
+    #82c0cc 100%
+  );
 }
 
-#cover-4 {
+.text-futuro {
+  font-size: 1.35rem;
+  font-family: 'Nimbus Roman', sans-serif;
+  margin-bottom: 5rem;
+  width: 50%;
+  padding-top: 2rem;
+}
+
+.images-container {
+  width: 78%;
+  display: flex;
+  align-self: center;
+}
+
+.image-futuro {
+  /* object-fit: cover;   */
+  width: 100%; 
+  height: 105%; 
+}
+
+
+
+
+
+
+#cover-ces {
   height: 90vh;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 55px;
 }
+
+.ces-boxes-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  align-self: center;
+}
+
+.ces-box {
+  width: 33%;
+  padding: 0 8px;
+}
+
+.ces-image-1 {
+  /* object-fit: cover; */
+  width: 100%;
+  height: 50%;
+}
+
+.ces-image-2 {
+  /* object-fit: cover; */
+  width: 100%;
+  height: 100%;
+}
+
+.ces-button {
+  display: flex;
+  width: 10%;
+  align-self: center;
+}
+
+.ces-column-1-box-1 {
+  height: 50%;
+  background-color: orange;
+}
+
+.ces-column-2 {
+  padding-right: 15px;
+}
+
+.ces-column-3 {
+  background-color: #82c0cc;
+}
+
+.ces-column-3 p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  display: flex;
+  justify-self: center;
+  /* padding: 0; */
+}
+
+
+
 
 #cover-5 {
   height: 60vh;

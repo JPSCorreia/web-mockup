@@ -4,24 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css" /> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./styles/index.css" />
     <title>Document</title>
   </head>
   <body>
     <nav class="top-bar">
-      
       <div class="top-bar-element">
         <div class="search-container">
           <i class="fa fa-search search-icon" aria-hidden="true"></i>
           <input type="search" class="search-input" placeholder="Search" />
         </div>
       </div>
-      
+
       <div class="top-bar-element">
         <i class="fa fa-sharp fa-solid fa-bars" aria-hidden="true"></i>
       </div>
-      
     </nav>
 
     <section id="cover-story">
@@ -41,18 +42,89 @@
     </section>
 
     <section id="cover-noticias">
-      <div class="column-noticias" >
-        <h5>
-          NOTICIAS DE TECNOLOGIA
-        </h5>
+      <div class="column-noticias" id="column-left-noticia">
+        <h5>NOTICIAS DE TECNOLOGIA</h5>
+        <h2 class="h2-noticia">Robô Humano</h2>
+        <p class="text-noticia">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
       </div>
-      <div class="column-noticias" >
-        <img src="./resources/hand.jpg" alt="hand" />
+      <div class="column-noticias" id="column-right-noticia">
+        <img class="hand-image" src="./resources/hand.jpg" alt="hand" />
       </div>
     </section>
-    
-    <section id="cover-3"></section>
-    <section id="cover-4"></section>
+
+    <section id="cover-futuro">
+      <h3 class="h3-futuro">FUTURO DO TRABALHO</h3>
+      <p class="text-futuro">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam,
+      </p>
+      <div class="images-container">
+        <img
+          class="image-futuro"
+          src="./resources/01.png"
+          alt="robot winking"
+        />
+        <img
+          class="image-futuro"
+          src="./resources/02.png"
+          alt="robot's face'"
+        />
+        <img
+          class="image-futuro"
+          src="./resources/03.png"
+          alt="man giving a presentation laughing"
+        />
+        <img
+          class="image-futuro"
+          src="./resources/04.png"
+          alt="futuristic robot"
+        />
+        <img
+          class="image-futuro"
+          src="./resources/05.png"
+          alt="green on/off button"
+        />
+        <img
+          class="image-futuro"
+          src="./resources/06.png"
+          alt="top of an apartment building"
+        />
+      </div>
+    </section>
+    <section id="cover-ces">
+      <div class="ces-boxes-container">
+        <div class="ces-box ces-column-1">
+          <div class="ces-column-1-box-1"><h3>Os robôs da CES 2019</h3></div>
+          <img class="ces-image-1" src="./resources/foto1.png" alt="robôs telecomandados">
+        </div>
+        <div class="ces-box ces-column-2">
+          <img class="ces-image-2" src="./resources/foto2.png" alt="homem a rir">
+        </div>
+        <div class="ces-box ces-column-3">
+          <p>Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+        </div>
+        </div>
+      <button class="ces-button">Saber mais</button>
+    </section>
     <section id="cover-5"></section>
     <section id="cover-6"></section>
   </body>
