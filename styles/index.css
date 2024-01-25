@@ -1,0 +1,210 @@
+/* general css rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+h1 {
+  /* font-weight: 700; */
+  line-height: 1.05;
+  font-family: 'Nimbus Roman', sans-serif;
+}
+
+body {
+  font-family:;
+}
+
+p {
+  font-size: 2rem;
+  font-family: 'Nimbus Roman', sans-serif;
+}
+
+
+/* navbar and elements */
+
+nav {
+  height: 12vh;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.top-bar-element {
+  height: 58%;
+  padding: 0 11%;
+  display: flex;
+  align-items: center;
+}
+
+.search-container {
+  border: 2px groove #272727;
+  border-color: black;
+  width: 420px;
+  padding: 8px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  border: 0;
+  padding: 10px;
+  padding-left: 12px;
+  padding-right: 0;
+  width: 100%;
+  font-size: 1.9rem;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: #a9a9a9;
+  opacity: 1; /* Firefox */
+}
+
+.fa-search {
+  font-size: 2rem;
+  color: #272727;
+}
+
+.fa-bars {
+  font-size: 2.75rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section cover */
+
+#cover-story {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 97vh;
+  background-image: url("CoverStory_robots.jpeg");
+  background-position: 0% 58%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.column-cover {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  font-size: 4.5rem;
+  justify-content: center
+}
+
+#column-left-cover {
+}
+
+#column-right-cover {
+  margin: auto;
+  padding-left: 10px;
+  display: flex;
+}
+
+.cover-text {
+  width: 80%;
+  margin-top: 2rem;
+}
+
+.rectangle {
+  width: 12px;
+  height: 175px;
+  border: 7px solid #82c0cc;
+  background-color: #82c0cc;
+}
+
+
+
+
+
+
+
+
+/* section noticias */
+
+#cover-noticias {
+  display: flex;
+  height: 95vh;
+  background-color: white;
+}
+
+
+.column-noticias {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  font-size: 4.5rem;
+  justify-content: center
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cover-3 {
+  height: 90vh;
+  background-color: #333333;
+}
+
+#cover-4 {
+  height: 90vh;
+  background-color: white;
+}
+
+#cover-5 {
+  height: 60vh;
+  background-color: #333333;
+}
+
+#cover-6 {
+  height: 120vh;
+  background-color: white;
+}
