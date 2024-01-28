@@ -272,7 +272,7 @@ nav {
 .ces-image-1 {
   /* object-fit: cover; */
   width: 100%;
-  height: 50%;
+  height: 53.75%;
 }
 
 .ces-image-2 {
@@ -287,9 +287,18 @@ nav {
   align-self: center;
 }
 
+.ces-column-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+  
+}
+
 .ces-column-1-box-1 {
-  height: 50%;
-  background-color: orange;
+  height: 43.75%;
+  background-color: #eaba6b;
+  display: flex;
+  justify-content: center;
 }
 
 .ces-column-2 {
@@ -300,13 +309,41 @@ nav {
   background-color: #82c0cc;
 }
 
-.ces-column-3 p {
-  font-size: 1.5rem;
-  line-height: 1.5;
+.ces-column-3 {
   display: flex;
-  justify-self: center;
-  /* padding: 0; */
 }
+
+.ces-column-3 p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  justify-self: center;
+  align-self: center;
+  padding: 0 1rem;
+  text-align: justify;
+}
+
+
+#ces-title {
+  color: white;
+  font-size: 2.6rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Ensure the height covers the container */
+  margin: 0; /* Remove default margin */
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
